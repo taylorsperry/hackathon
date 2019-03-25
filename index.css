@@ -178,7 +178,7 @@ body {
 }
 
 .container-right article p {
-  padding: 24px;
+  padding: 18px;
   background-color: #ecd888;
   font-size: 24px;
   margin: 5px;
@@ -187,4 +187,12 @@ body {
 .container-right {
   display: flex;
   align-items: center;
+}
+
+.goals:hover,
+.item-container:hover,
+.inspo:hover,
+.schedule:hover,
+.fitness-calendar:hover {
+  border-color: #00CACA;
 }
